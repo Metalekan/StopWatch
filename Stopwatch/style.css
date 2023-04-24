@@ -1,0 +1,65 @@
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(david-werbrouck-RfXv1snaYEI.jpg) no-repeat center center/ cover;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff;
+    width: 40%;
+    min-width: 400px;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 9px;
+    margin: 0 15px;
+}
+.timer-display{
+    width: 80%;
+    color: #8c52ff;
+    background: #fff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+    font-size: 1.75rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 0.75rem 2rem;
+    background-color: #8c52ff;
+    border: none;
+    font-size: 16px;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+.buttons button:nth-last-child(2){
+    background-color: #e35209;
+}
+.buttons button:nth-last-child(1){
+    background-color: #f7df1e;
+}
+.buttons button:hover{
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
